@@ -1,0 +1,95 @@
+site_name: Herra Wiki
+site_url: https://wiki.herra.fun
+plugins:
+    - search:
+        lang:
+            - en
+            - ja
+        separator: '[\s\-\.]+'
+theme:
+  favicon: images/favicon.png
+  language: zh
+  icon:
+    logo: material/library-outline
+  name: material
+  custom_dir: docs/overrides #覆写路径
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: 切换深色模式
+
+      primary: cyan
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: 切换浅色模式
+
+      primary: cyan
+
+
+
+
+    
+    
+
+
+
+
+  features: 
+  - navigation.top
+  - search.highlight
+  - search.share
+  - header.autohide
+  - navigation.footer
+  - navigation.instant
+  - content.tabs.link
+  
+copyright: Copyright © 2024-2025  <a href=http://studio.herra.fun/>Herra Studio</a>  All Rights Reserved
+
+extra:
+  consent:
+    title: Cookie同意
+    actions:
+      - accept
+      - reject 
+    description: >- 
+      我们使用cookies来识别您的重复访问和偏好，以及衡量我们文档的有效性以及用户是否找到了他们正在寻找的内容。在您的同意下，您正帮助我们使我们的文档变得更好。
+  generator: false  # 隱藏 "Made with Material for MkDocs"
+  social:
+    - icon: material/qq
+      link: https://qm.qq.com/q/AL5zfKJ0Yw
+    - icon: material/email
+      link: mailto:1@herra.fun
+    - icon: fontawesome/brands/github
+      link: https://github.com/haobaiawa
+
+
+extra_css:
+    - stylesheets/extra.css
+
+markdown_extensions:
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.superfences
+
+
+
+
+nav:
+
+  - "index.md"
+  - "服务器规则.md"
+  -  新手教程:
+      - "新手教程/电脑游玩教程.md"
+      - "新手教程/手机游玩教程.md"
+  - "封禁名单.md"
+  - "名人榜.md"
