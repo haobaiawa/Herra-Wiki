@@ -11,7 +11,7 @@ theme:
   language: zh
   icon:
     logo: material/library-outline
-  name: material
+  name: mkdocs
   custom_dir: docs/overrides #覆写路径
   palette:
     # Palette toggle for light mode
@@ -92,4 +92,5 @@ nav:
       - "新手教程/电脑游玩教程.md"
       - "新手教程/手机游玩教程.md"
   - "封禁名单.md"
+
   - "名人榜.md"
