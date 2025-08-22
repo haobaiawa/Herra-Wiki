@@ -75,7 +75,6 @@ extra_css:
 
 markdown_extensions:
   - admonition
-  - pymdownx.details
   - pymdownx.superfences
   - pymdownx.superfences
 
@@ -92,4 +91,5 @@ nav:
   - "封禁名单.md"
 
   - "名人榜.md"
+
 
